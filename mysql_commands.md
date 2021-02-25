@@ -82,30 +82,28 @@ CREATE DATABASE acme;
 ## Delete Database
 
 ```sql
-DROP DATABASE acme;
+DROP DATABASE mountains;
 ```
 
 ## Select Database
 
 ```sql
-USE acme;
+USE mountains;
 ```
 
 ## Create Table
 
 ```sql
-CREATE TABLE users(
-id INT AUTO_INCREMENT,
-   first_name VARCHAR(100),
-   last_name VARCHAR(100),
-   email VARCHAR(50),
-   password VARCHAR(20),
-   location VARCHAR(100),
-   dept VARCHAR(100),
-   is_admin TINYINT(1),
-   register_date DATETIME,
-   PRIMARY KEY(id)
-);
+ CREATE TABLE mountain_details(
+     id INT AUTO_INCREMENT,
+     primary_name VARCHAR(100),
+     other_name VARCHAR(100),
+     location VARCHAR(100),
+     country VARCHAR(100),
+     continent VARCHAR(100),
+     altitude INT(100),
+     PRIMARY KEY(id)
+     );
 ```
 
 ## Delete / Drop Table
