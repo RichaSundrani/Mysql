@@ -76,7 +76,7 @@ SHOW DATABASES
 ## Create Database
 
 ```sql
-CREATE DATABASE acme;
+CREATE DATABASE mountains;
 ```
 
 ## Delete Database
